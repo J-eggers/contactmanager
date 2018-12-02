@@ -1,6 +1,6 @@
 //This using this for redux using ref
 
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 class AddContact extends Component {
   constructor(props) {
@@ -23,9 +23,9 @@ class AddContact extends Component {
   };
 
   static defaultProps = {
-    name: "Fred Smith",
-    email: "fred@yahoo.com",
-    phone: "777-777-7777"
+    name: 'Fred Smith',
+    email: 'fred@yahoo.com',
+    phone: '777-777-7777'
   };
 
   render() {
